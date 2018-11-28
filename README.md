@@ -7,22 +7,22 @@ See: https://www.baeldung.com/spring-boot-vaadin
 - Clone this repository
 
   ```
-  $ git clone https://github.com/mbicudo/vaadin-spring-docker
+  $ git clone https://github.com/mbicudo/vaadin-spring-boot-docker
   ```
 
-- Add the tgz for Apache Tomcat and JDK of your choice, and edit Dockerfile accordingly.
-The versions that this image has been tested are:
+- Add the tgz for Apache Maven and JDK of your choice, and edit Dockerfile accordingly.
+The versions that have been tested are:
 
   ```
    $ ls -1 deps/
    apache-maven-3.6.0-bin.tar.gz
-   jdk-11.0.1_linux-x64_bin.tar.gz
+   jdk-8u40-linux-x64.tar.gz
   ```
 
 - Build Docker Image
 
   ```
-  $ cd vaadin-spring-boot
+  $ cd vaadin-spring-boot-docker
   $ docker build -t vaadin-spring-boot
   ```
 
