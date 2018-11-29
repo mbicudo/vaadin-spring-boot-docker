@@ -1,7 +1,7 @@
-MyJPetStore
+Vaadin Spring Boot 
 =================
 
-Dockerized Vaadin Springboot example
+Dockerized Vaadin Spring Boot example
 See: https://www.baeldung.com/spring-boot-vaadin
 
 - Clone this repository
